@@ -1,0 +1,26 @@
+{
+  "name": "57script",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/index.js",
+  "bin": {
+    "57-node": "build/bin.js"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/babel src -d build"
+  },
+  "author": "Eetu Latja <eetu.latja@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-plugin-transform-es2015-destructuring": "^6.5.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.5.2",
+    "babel-plugin-transform-es2015-parameters": "^6.5.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.5.2",
+    "babel-register": "^6.5.2",
+    "commander": "^2.9.0",
+    "path-is-absolute": "^1.0.0"
+  }
+}
