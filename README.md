@@ -2,7 +2,7 @@
 
 > It's a perfect score!
 
-Programming language made specifically for comparing movie ratings.
+A JavaScript extension made specifically for comparing movie ratings.
 
 ```js
 var movie1 = {
