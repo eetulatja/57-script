@@ -1,7 +1,7 @@
 {
   "name": "57-script",
   "version": "0.0.2",
-  "description": "",
+  "description": "A nifty helper for rating movies.",
   "main": "lib/index.js",
   "bin": {
     "57-node": "lib/bin.js"
